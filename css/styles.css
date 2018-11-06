@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.featureBox {
+    height: 400px;
+}
+
+.featureHidden {
+    display: none;
+}
+
+.bg, .bgSplitOne, .bgSplitTwo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top: solid 15px transparent;
+    border-bottom: solid 15px transparent;
+}
+
+.bgSplitOne {
+    width: 40%;
+}
+
+.bgSplitTwo {
+    width: 59%;
+}
+
+.featureText {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.featureLink:hover .featureText p {
+    opacity: 1;
+}
+
+.featureCaption, .featureTitle {
+    display: block;
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 0.8;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.featureTitle {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #ffffff;
+    background-color: #5b78a9;
+    font-size: 18px;
+}
+
+.stories {
+    height: 50px;
+    margin: 15px;
+    padding-top: 10px;
+    color: #ffffff;
+    background-color: #0d3d8d;
+}
+
+a .stories:hover {
+    background-color: #6a9fcc;
+}
+
+.anchor {
+    visibility: hidden;
+}
+
+.nasaEvents, .tweets {
+    height: 400px;
+    background-color: #39729e;
+    border-top: solid 15px #000000;
+    border-bottom: solid 15px #000000;
+}
+
+.tweets {
+    background-color: #292f32;
+}
+
+@media only screen and (min-width: 959px) {
+    .mainFeatureBg {
+        height: 800px;
+    }
+}
+
+/*!*.top-right {*!*/
+    /*!*position: absolute;*!*/
+    /*!*top: 0;*!*/
+    /*!*right: 0;*!*/
+    /*!*margin-right: 0;*!*/
+/*!*}*!*/
+
+/*header {*/
+    /*background-image: url("nasaBg.jpg");*/
+    /*margin-bottom: -15px;*/
+/*}*/
+
+/*nav {*/
+    /*position: relative;*/
+/*}*/
+
+/*.logo {*/
+    /*padding-top: 5px;*/
+/*}*/
+
+/*.xsNavLink ul li {*/
+    /*list-style-type: none;*/
+    /*padding: 30px 0 30px 0;*/
+    /*font-size: 26px;*/
+    /*font-weight: lighter;*/
+/*}*/
+
+/*.xsNavLink a {*/
+    /*text-decoration: none;*/
+    /*color: #ffffff;*/
+/*}*/
+
+/*li:hover {*/
+    /*background-color: #0a3d91;*/
+/*}*/
+
+/*.search {*/
+    /*overflow: hidden;*/
+    /*color: #ffffff;*/
+    /*position: absolute;*/
+    /*top: 30px;*/
+    /*right: 100px;*/
+/*}*/
+
+/*.mag {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+/*}*/
+
+/*input[type="text"] {*/
+    /*background-color : #555555;*/
+    /*font-weight: lighter;*/
+    /*border: 0;*/
+
+/*}*/
+
+/*.highNav {*/
+/*height: 100px;*/
+/*}*/
+
+/*.navBtn {*/
+/*border-right: solid 2px #555555;*/
+/*font-size: 23px;*/
+/*padding: 20px;*/
+/*}*/
+
+/*.navBtnEnd {*/
+/*border-right: 0;*/
+/*}*/
+
+/*.lowNav {*/
+/*height: 50px;*/
+/*background-color: #555555;*/
+/*padding-top: 14px;*/
+/*}*/
+
+/*.lowNavBtn {*/
+/*border-right: solid 1px #b7b7b8;*/
+/*font-size: 17px;*/
+/*font-weight: lighter;*/
+/*padding-left: 20px;*/
+/*padding-right: 20px;*/
+/*color: #ffffff;*/
+/*}*/
+
+/*.lowNavBtnEnd {*/
+/*border-right: 0;*/
+/*}*/
+
+/*.lowNavBtn:hover {*/
+/*background-color: #b7b7b7;*/
+/*opacity: 0.7;*/
+/*padding: 14px 20px 14px 20px;*/
+/*}*/
